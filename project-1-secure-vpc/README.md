@@ -7,8 +7,7 @@
 Built a custom VPC with public and private subnets across two Availability Zones. Deployed a web server on the public tier while keeping the private tier isolated. This project demonstrates core networking concepts and Security+ principles (least privilege and network segmentation).
 
 ## Architecture Diagram
-![Secure Multi-Tier VPC Architecture]<image-card alt="Secure Multi-Tier VPC Architecture" src="images/architecture-diagram.png" ></image-card>
-
+![Secure Multi-Tier VPC Architecture]![Secure Multi-Tier VPC Architecture](images/architecture-diagram.png)
 **Key Flow:**  
 Internet → Internet Gateway → Public Route Table (0.0.0.0/0) → Public Subnet → Public-Web-Tier (Apache)
 

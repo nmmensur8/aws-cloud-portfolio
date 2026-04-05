@@ -1,6 +1,6 @@
 # Project 1: Secure Multi-Tier VPC with Public & Private Subnets
 
-**Date:** Apri l 2026  
+**Date:** April 2026  
 **Program:** B.S. Cloud and Network Engineering (AWS Specialization) – Western Governors University (WGU)
 
 ## Project Overview
@@ -10,7 +10,7 @@ Built a custom VPC with public and private subnets across two Availability Zones
 
 **Key Flow:**  
 Internet → Internet Gateway → Public Route Table (0.0.0.0/0) → Public Subnet → Public-Web-Tier (Apache)
-![Secure Multi-Tier VPC Architecture](images/architecture-diagram.png)
+![Secure Multi-Tier VPC Architecture](architecture-diagram.png)
 ## Key Components
 - **VPC**: 10.0.0.0/16
 - **Public Subnets**: 10.0.1.0/24 (with Public-Web-Tier)

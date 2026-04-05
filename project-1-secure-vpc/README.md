@@ -10,7 +10,7 @@ Built a custom VPC with public and private subnets across two Availability Zones
 
 **Key Flow:**  
 Internet → Internet Gateway → Public Route Table (0.0.0.0/0) → Public Subnet → Public-Web-Tier (Apache)
-![Secure Multi-Tier VPC Architecture](images/architecture-diagram.png)
+![Secure Multi-Tier VPC Architecture](https://app.diagrams.net/#G1gJj47nWBmC0lGlpXM2qu-HrTfQK39KWB#%7B%22pageId%22%3A%22YPr5KYjxSOx_tmVjr2kr%22%7D)
 
 ## Key Components
 - **VPC**: 10.0.0.0/16
